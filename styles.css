@@ -1,0 +1,42 @@
+/* create a styles for each element on the /resume page.
+   create comments for each element to make it easier to find.
+ */
+
+
+ /* Header created with a gradient gray/black background in a modern style.
+    The header is aligned to the center of the page.
+ */
+    .header {
+        background: linear-gradient(to bottom, #333333 0%, #000000 100%);
+        text-align: center;
+        -webkit-text-fill-color: aliceblue;
+        padding: 20px;
+    }
+
+    /* the h1 element is the name of the resume. It is aligned to the center of the page.
+       The font is a sans-serif font.
+       The font size is 50px.
+       The font weight is bold.
+       The font color is white.
+       The text is capitalized.
+       The text is underlined.
+       The text is aligned to the center of the page.
+       The text is in all caps.
+       The text is spaced out.
+       The text is indented.
+       The text is in a modern style.
+     */
+    .name {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+        text-transform: capitalize;
+        text-decoration: underline;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-indent: 50px;
+        font-style: oblique;
+    }
