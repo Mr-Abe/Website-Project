@@ -1,3 +1,6 @@
+/* 
+
+/*
 * {
     box-sizing: border-box;
     margin: 0;
@@ -191,7 +194,7 @@
     }
 }
 
-/* Hero Section */
+// Hero Section 
 .hero {
     background: #000000;
     background: linear-gradient(to right, #161616, #000000);
@@ -218,15 +221,15 @@
 
 .hero__heading span {
     background: #ee0979;
-    /* fallback for old browsers */
+    //fallback for old browsers
     background: -webkit-linear-gradient(to right,
             #ff6a00,
             #ee0979);
-    /* Chrome 10-25, Safari 5.1-6 */
+    //Chrome 10-25, Safari 5.1-6 
     background: linear-gradient(to right,
             #ff6a00,
             #ee0979);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    //W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
     background-size: 100%;
     -webkit-background-clip: text;
     background-clip: text;
@@ -238,15 +241,15 @@
 .hero__description {
     font-size: 60px;
     background: #da22ff;
-    /* fallback for old browsers */
+    //fallback for old browsers
     background: -webkit-linear-gradient(to right,
             #9114ff,
             #da22ff);
-    /* Chrome 10-25, Safari 5.1-6 */
+    // Chrome 10-25, Safari 5.1-6
     background: linear-gradient(to right,
             #8f0eff,
             #da22ff);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    //W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
     background-size: 100%;
     -webkit-background-clip: text;
     background-clip: text;
@@ -269,7 +272,7 @@
     }
 }
 
-/* About Section */
+//About Section
 .main {
     background-color: #131313;
     padding: 10rem 0;
@@ -309,15 +312,15 @@
 .main__content h2 {
     font-size: 1.2rem;
     background: #ff8177;
-    /* fallback for old browsers */
+    // fallback for old browsers 
     background: -webkit-linear-gradient(to right,
             #9114ff,
             #da22ff);
-    /* Chrome 10-25, Safari 5.1-6 */
+    // Chrome 10-25, Safari 5.1-6
     background: linear-gradient(to right,
             #8f0eff,
             #da22ff);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    // W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -328,15 +331,15 @@
 .main__content__h2 {
     font-size: 1.2rem;
     background: #ff8177;
-    /* fallback for old browsers */
+    // fallback for old browsers
     background: -webkit-linear-gradient(to right,
             #9114ff,
             #da22ff);
-    /* Chrome 10-25, Safari 5.1-6 */
+    // Chrome 10-25, Safari 5.1-6
     background: linear-gradient(to right,
             #8f0eff,
             #da22ff);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    // W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -419,7 +422,7 @@
     background: linear-gradient(to right, #dd2476, #ff512f);
 }
 
-/* Mobile Responsive */
+//Mobile Responsive
 @media screen and (max-width: 1100px) {
     .main__container {
         display: grid;
@@ -499,7 +502,7 @@
     }
 }
 
-/* Services Section */
+//Services Section
 .services {
     background: #131313;
     display: flex;
@@ -544,17 +547,17 @@
 
 .services__card:nth-child(2) {
     background: #1fa2ff;
-    /* fallback for old browsers */
+    // fallback for old browsers
     background: -webkit-linear-gradient(to right,
             #a6ffcb,
             #12d8fa,
             #1fa2ff);
-    /* Chrome 10-25, Safari 5.1-6 */
+    //Chrome 10-25, Safari 5.1-6
     background: linear-gradient(to right,
             #a6ffcb,
             #12d8fa,
             #1fa2ff);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    // W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
 }
 
 .services__card:nth-child(3) {
@@ -613,7 +616,7 @@
     }
 }
 
-/* Footer CSS */
+//Footer CSS 
 .footer__container {
     background-color: #131313;
     padding: 5rem 0;
