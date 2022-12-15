@@ -2,207 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dwight Abrahams</title>
+    <title> CodeGenius Consulting </title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/dfcf01b31a.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> -->
-    <!-- <img src="images/Logo_small.png" alt="pic" id="logo__img"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Logos/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Logos/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Logos/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+    </style>
 </head>
 
-<body>
-    <!-- Navbar Section -->
-    <nav class="navbar">
-        <div class="navbar__container">
-            <a href="#home" id="navbar__logo">Dwight Abrahams®</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span> <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="#about" class="navbar__links" id="home-page">About</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#services" class="navbar__links" id="services-page">Services</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/Resume.html" class="navbar__links" id="resume-page">Resume</a>
-                </li>
-                <li class="navbar__btn">
-                    <a href="#contact" class="button" id="contact-page">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <div class="hero" id="home">
-        <div class="hero__container">
-            <h1 class="hero__heading">Transforming <span>Business</span></h1>
-            <p class="hero__description">with a unique blend of <em>tech</em>, <em>organizational</em>, and <em>training expertise!</em></p>
-            <button class="main__btn"><a href="#contact">Contact</a></button>
-        </div>
+<!-- Sidebar/menu -->
+<nav class="sidebar collapse white animate-left" style="z-index: 3; width: 300px;" id="my_sidebar"><br>
+    <div class="container">
+        <a href="#" onclick="sidebar_close()" class="hide-large right jumbo padding hover-grey" title="close menu">
+            <i class="fa fa-remove"></i>
+        </a>
+        <img src="Images/pexels-pixabay-270348.jpg" style="width:45%;" class="round"><br><br>
+        <h4><b>PORTFOLIO</b></h4>
     </div>
+    <div class="w3-bar-block">
+        <a href="/resume.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>RESUME</a> 
+        <a href="/template_portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+      </div>
+    <!-- header -->
+    <!-- <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"> <img src="Logos/svg/logo-black-cropped.svg" alt="CodeGenius Consulting"></a>
+            </div>
+            <div class="header_menu">
+                <ul>
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a href="/resume.html"> Resumé </a> </li>
+                    <li> <a href="/projects.html"> Projects </a> </li>
+                    <li> <a href="contact.html"> Contact </a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header> -->
 
-    <!-- About Section -->
-    <div class="main" id="about">
-        <div class="main__container">
-            <div class="main__img--container">
-                <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
-            </div>
-            <div class="main__content">
-                <h1>My Story</h1>
-                <h4>My name is Dwight Abrahams, and I am a computer software engineer with 3+ years of direct experience in developing software. 
-                    I hold a Master's in Organizational Development and Leadership from University of the Incarnate Word, 
-                    and have worked on a number of change management, software development, and web application projects. 
-                    In my most recent role, I served as a Senior Development Representative within Leidos. There, I collaborated in
-                    a cross-functional team to identify and mitigate inefficiencies in our processes.
-                    My biggest achievement there would be driving the change efforts that improved our quality rating over 20%.  
-                    In my leisure time, I enjoy listening to true-crime podcasts, reading leadership books and case studies, and 
-                    am always tracking down new opportunities to learn and grow.</h4>
-                <p>Schedule a call to discuss bringing my talent to your company</p>
-                <button class="main__btn"><a href="#">Schedule Call</a></button>
-            </div>
-        </div>
-    </div>
+    <!--body -->
+</nav>
 
-    <!-- Projects Section -->
-    <div class="main" id="projects">
-        <div class="main__container">
-            <div class="main__img--container">
-                <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
-            </div>
-            <div class="main__content__h2">
-                <h1>What I do?</h1>
-                <h2>Drive tranformational change
-                    <h5>
-                        <ul>
-                            <li>Change Management</li>
-                            <li>Process Improvement</li>
-                            <li>Project Management</li>
-                            <li>Software Development</li>
-                            <li>Web Application Development</li>
-                        </ul>
-                    </h5>
-                </h2>
-                <p>Click the button for summary of previous work</p>
-                <button class="main__btn"><a href="#">Resume</a></button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Services Section -->
-    <div class="services" id="services">
-        <h1>My Services</h1>
-        <div class="services__wrapper">
-            <div class="services__card">
-                <h2>Full Stack Development Consulting</h2>
-                <p>AI Powered technology</p>
-                <div class="services__btn"><button>Get Started</button></div>
-            </div>
-            <div class="services__card">
-                <h2>Technical Project Managment Consulting</h2>
-                <p>Take the leap</p>
-                <div class="services__btn"><button>Get Started</button></div>
-            </div>
-            <div class="services__card">
-                <h2>Organizational Development Consulting</h2>
-                <p>100 Combinations</p>
-                <div class="services__btn"><button>Get Started</button></div>
-            </div>
-            <div class="services__card">
-                <h2>Leadership Development Consulting</h2>
-                <p>1000's of colors</p>
-                <div class="services__btn"><button>Get Started</button></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Resume Section -->
-    <!-- create an embedded resume section with download link -->
-    <div class="main" id="resume">
-        <div class="main__container">
-            <div class="main__content">
-                <h1>Resume</h1>
-                <p>Click the button to download my resume</p>
-                <button class="main__btn"><a href="/public/Dwight Abrahams CV-1.pdf" target="_blank" rel="noopener noreferrer">Download</a></button>
-            </div>
-            <div class="main__img--container">
-                <div class="main__img--card"><i class="fas fa-users"></i></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Section -->
-    <div class="main" id="contact">
-        <div class="main__container">
-            <div class="main__content">
-                <h1>Request a Consultation</h1>
-                <p>See what makes me different</p>
-                <button class="main__btn"><a href="#">Email Me</a></button>
-            </div>
-            <div class="main__img--container">
-                <div class="main__img--card" id="card-2">
-                    <i class="fas fa-users"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer Section -->
-    <div class="footer__container">
-        <div class="footer__links">
-            <div class="footer__link--wrapper">
-                <div class="footer__link--items">
-                    <h2>About Us</h2>
-                    <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
-                    <a href="/">Careers</a> <a href="/">Terms of Service</a>
-                </div>
-                <div class="footer__link--items">
-                    <h2>Contact Us</h2>
-                    <a href="/">Contact</a> <a href="/">Support</a>
-                    <a href="/">Destinations</a>
-                </div>
-            </div>
-            <div class="footer__link--wrapper">
-                <div class="footer__link--items">
-                    <h2>Videos</h2>
-                    <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
-                    <a href="/">Agency</a>
-                </div>
-                <div class="footer__link--items">
-                    <h2>Social Media</h2>
-                    <a href="/">Instagram</a> <a href="/">Facebook</a>
-                    <a href="/">Youtube</a> <a href="/">Twitter</a>
-                </div>
-            </div>
-        </div>
-        <section class="social__media">
-            <div class="social__media--wrap">
-                <div class="footer__logo">
-                    <a href="/" id="footer__logo">Dwight Abrahams</a>
-                </div>
-                <p class="website__rights">© Dwight Abrahams 2022. All rights reserved</p>
-                <div class="social__icons">
-                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
-                    <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
-                    <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
-                    <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <script src="app.js"></script>
-</body>
+<script>
+    // Script to open and close sidebar
+    function sidebar_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+     
+    function sidebar_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+    </script>
 
 </html>

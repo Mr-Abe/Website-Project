@@ -1,64 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dwight Abrahams</title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://kit.fontawesome.com/dfcf01b31a.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!-- <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> -->
-        <!-- <img src="images/Logo_small.png" alt="pic" id="logo__img"> -->
+        <title>Resume</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
-    <!--Create the body and layout tags for a resume-->
     <body>
-        <!-- Navbar Section -->
-        <nav class="navbar">
-            <div class="navbar__container">
-                <a href="#home" id="navbar__logo">Dwight Abrahams®</a>
-                <div class="navbar__toggle" id="mobile-menu">
-                    <span class="bar"></span> <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="navbar__menu">
-                    <li class="navbar__item">
-                        <a href="#about" class="navbar__links" id="home-page">About</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#services" class="navbar__links" id="services-page">Services</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#resume" class="navbar__links" id="resume-page">Resume</a>
-                    </li>
-                    <li class="navbar__btn">
-                        <a href="#contact" class="button" id="contact-page">Contact</a>
-                    </li>
+        <!--create a header with resue demographic information-->
+        <div class="resume_logo"> 
+            <a href="index.html"><img src="/Logos/dwight-abrahams-logo-zip-file/png/logo-black.png" alt="Dwight Abrahams Logo"></a>
+        </div>
+        <div class="header">
+            <h1 class="name">Dwight Abrahams</h1>
+            <span class="email">SoftwareEngineer@abrahams.app</span><br>
+            <span class="phone">9174262882</span><br>
+            <span class="location">Indianapolis, IN</span>
+        </div>
+        <div class="summary">
+            <h1 class="title">Summary</h1>
+            <p class="description">Army veteran with over 12 years of experience leading projects and training soldiers. Completed a
+                Masters degree in Organizational Development and a Bachelors in Computer Science. Currently seeking a
+                position in the Software Engineering field where I can utilize my skills and experience to make a positive
+                impact on the organization.</p>
+        <div class="position">
+            <div class="title_date">
+                <h1 class="job_title" style="text-align: left;">
+                    Training and Development Senior
+                    <span class="date" style="float: right;">
+                        May 2018 - April 2020
+                    </span>
+                </h1>
+            </div>
+            <div class="company_location">
+                <span class="company" style="text-align: left;">Leidos</span>
+                <span class="location" style="float: right;">San Antonio, TX</span>
+            </div>
+            <div class="description">
+                <p class="description">Description of Position</p>
+                <ul class="skills">
+                    <li>Skill 1</li>
+                    <li>Skill 2</li>
+                    <li>Skill 3</li>
                 </ul>
             </div>
-        </nav>
-
-        <!--Create a section for one individual job, consisting of Job Title, Company, Dates, Location, Achievements and SKills-->
-        <section class="resume__section">
-            <div class="resume__container">
-                <div class="resume__wrapper">
-                    <div class="resume__card">
-                        <div class="resume__card__info">
-                            <h2 class="resume__card__title">Job Title</h2>
-                            <h3 class="resume__card__company">Company</h3>
-                            <h4 class="resume__card__date">Dates</h4>
-                            <h4 class="resume__card__location">Location</h4>
-                            <p class="resume__card__text">Achievements</p>
-                            <p class="resume__card__text">Skills</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
     </body>
-
+    <!--create a footer with links to social media-->
+    <footer>
+        <div class="contact_links" style="text-align: center;">
+            <a href="https://www.Instagram.com">Instagram</a>
+            <a href="https://www.Github.com">Github</a>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+        </div>
+    </footer>
+    <!--call the style sheet for the resume page-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </html>
